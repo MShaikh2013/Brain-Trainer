@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
         Button goButton = (Button) view;
 
         goButton.setVisibility(View.INVISIBLE);
+        playAgain.setVisibility(View.INVISIBLE);
         gameConstraintLayout.setVisibility(View.VISIBLE);
         /*scoreTextView.setVisibility(View.VISIBLE);
         sumTextView.setVisibility(View.VISIBLE);
